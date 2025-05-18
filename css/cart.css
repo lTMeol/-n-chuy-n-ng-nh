@@ -1,0 +1,152 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body {
+    font-family: Arial, sans-serif;
+    color: #333;
+  }
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+    border-bottom: 1px solid #ccc;
+  }
+  .navbar .logo {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  .navbar nav a {
+    margin: 0 15px;
+    font-weight: 500;
+  }
+  .navbar .search {
+    font-size: 20px;
+  }
+  .cart-title {
+    padding: 40px 50px 20px;
+    font-size: 24px;
+  }
+  .cart-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 50px 60px;
+    gap: 40px;
+  }
+  .cart-items {
+    flex: 2;
+  }
+  .cart-item {
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid #eee;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+  }
+  .cart-item img {
+    width: 120px;
+    height: 160px;
+    object-fit: cover;
+    border-radius: 6px;
+  }
+  .item-info {
+    flex: 1;
+    margin-left: 20px;
+  }
+  .item-info p {
+    margin: 6px 0;
+  }
+  .qty-control {
+    margin-top: 10px;
+  }
+  .qty-control button {
+    padding: 5px 10px;
+    margin: 0 5px;
+    background: #f0f0f0;
+    border: none;
+    cursor: pointer;
+  }
+  .item-total {
+    text-align: right;
+  }
+  .item-total span {
+    display: block;
+    font-weight: bold;
+  }
+  .remove {
+    margin-top: 10px;
+    background: none;
+    border: none;
+    font-size: 18px;
+    color: #999;
+    cursor: pointer;
+  }
+  
+  .summary {
+    flex: 1;
+    border: 1px solid #eee;
+    padding: 20px;
+    border-radius: 8px;
+    background: #fafafa;
+    height: fit-content;
+  }
+  .summary h3 {
+    margin-bottom: 20px;
+  }
+  .summary-line, .summary-total {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0;
+  }
+  .summary-total {
+    font-weight: bold;
+    margin-top: 20px;
+    border-top: 1px solid #ccc;
+    padding-top: 10px;
+  }
+  .checkout-btn {
+    width: 100%;
+    margin-top: 20px;
+    padding: 12px;
+    background: black;
+    color: white;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  .delivery-note {
+    font-size: 12px;
+    color: #777;
+    margin-top: 10px;
+  }
+  
+  footer {
+    background: #f2f2f2;
+    padding: 50px;
+  }
+  .footer-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px;
+  }
+  footer h4 {
+    margin-bottom: 15px;
+  }
+  footer p {
+    margin-bottom: 8px;
+    font-size: 14px;
+  }
+  footer .copyright {
+    text-align: center;
+    margin-top: 30px;
+    font-size: 13px;
+    color: #777;
+  }
+  
